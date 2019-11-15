@@ -1,0 +1,13 @@
+body{
+    background-color: lightcyan;
+}
+table{
+ border: 2px;
+    height:auto;
+    align:center;
+    width: 60%;
+}
+tr,td{
+ border: 2px;
+
+}

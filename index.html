@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="index_css.css">
+    <!--<script src="/home/sb-sandeep/Desktop/subha/git_ex/basic-javascript-app/Regd_Form_Validation.js"></script>-->
+</head>
+<body>
+<form name="RegForm" action="Disp_Html.html" onsubmit="return validation_function()" method="post" >
+
+    <table align="center">
+        <caption><h1>REGISTRATION FORM </h1></caption>
+        <tr><td>FirstName:</td><td><input type="text"  name="fname" ></td></tr>
+        <tr><td></td><td id="fname_error"></td></tr>
+        <tr><td>LastName:</td><td><input type="text"  name="lname"></td></tr>
+        <tr><td></td><td id="lname_error"></td></tr>
+        <tr><td>DOB:</td><td><input type="date" name="dob" ></td></tr>
+        <tr><td></td><td id="dob_error"></td></tr>
+        <tr><td>Email:</td><td><input type="text" name="email_id" ></td></tr>
+        <tr><td></td><td id="email_error"></td></tr>
+        <tr><td>Password:</td><td><input type="password" name="Password" ></td></tr>
+        <tr><td></td><td id="password_error"></td></tr>
+        <tr><td >ConfirmPassword:</td><td><input type="password" name="ConfirmPassword"></td></tr>
+        <tr><td></td><td id="cpsw_error"></td></tr>
+        <tr><td><input type="submit" value="send" name="Submit"></td>
+            <td><input type="reset" value="Reset" name="Reset"></td></tr>
+
+    </table>
+<!--
+        <p>FirstName:<br><input type="text" size="65" name="fname" ></p><P id="fname_error"></P>
+        <p>LastName:<br><input type="text" size="65" name="lname"></p><p id="lname_error"></p><br>
+        <p>DOB:<br><input type="date" name="dob" size="65"></p><p id="dob_error"></p><br>
+        <p>Email:<br><input type="text" name="email_id" size="65"></p><p id="email_error"></p>
+        <p>Password:<br><input type="password" name="Password" size="65"></p><p id="password_error"></p><br>
+        <p>ConfirmPassword:<br><input type="password" size="65 " name="ConfirmPassword"></p><p id="cpsw_error"></p>
+        <p><input type="submit" value="send" name="Submit">
+            <input type="reset" value="Reset" name="Reset">
+        </p>-->
+
+</form>
+</body>
+<script src="Regd_Form_Validation.js"></script>
+</html>
